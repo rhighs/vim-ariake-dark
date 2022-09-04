@@ -1,13 +1,13 @@
 " Vim color file
 
 set background=dark
-highlight clear
+hi clear
+
+let g:colors_name = "ariake"
 
 if exists("syntax_on")
   syntax reset
 endif
-
-let g:colors_name = "ariake"
 
 hi Cursor ctermfg=16 ctermbg=231 cterm=NONE guifg=#1f212a guibg=#f8f8f0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#313343 gui=NONE
